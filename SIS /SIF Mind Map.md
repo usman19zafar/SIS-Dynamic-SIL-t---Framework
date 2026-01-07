@@ -1,48 +1,54 @@
 ```mermaid
-mindmap
-  root((Safety Instrumented System - SIS))
+flowchart TD
+    A((Safety Instrumented System - SIS))
 
-    "IEC 61508 Assumptions"
-    "Fixed SIL Classification"
-    "No Time-Based Degradation"
-    "Event-Independent Risk"
+    A --> B1[Static Model]
+    B1 --> B2["IEC 61508 Assumptions"]
+    B1 --> B3["Fixed SIL Classification"]
+    B1 --> B4["No Time-Based Degradation"]
+    B1 --> B5["Event-Independent Risk"]
 
-    "SIL(t) Time Banded Integrity"
-    "Operational Drift"
-    "Load-Based Degradation"
-    "Environment Variability"
-    "Maintenance Gaps"
-    "Sensor Aging"
-    "Real-Time Risk Evolution"
+    A --> C1[Dynamic Model]
+    C1 --> C2["SIL(t) Time-Banded Integrity"]
+    C1 --> C3["Operational Drift"]
+    C1 --> C4["Load-Based Degradation"]
+    C1 --> C5["Environment Variability"]
+    C1 --> C6["Maintenance Gaps"]
+    C1 --> C7["Sensor Aging"]
+    C1 --> C8["Real-Time Risk Evolution"]
 
-    "Raw Layer (Historian, PLC, DCS)"
-    "Bronze: Event Logs, Trip Logs"
-    "Silver: Time-Series Normalization"
-    "Gold: Risk Models and SIL(t) Curves"
-    "Event Streams"
-    "Anomaly Detection"
-    "Drift Monitoring"
-    "Metadata"
-    "Lineage"
-    "Quality Rules"
+    A --> D1[Data Architecture]
+    D1 --> D2["Raw Layer (Historian, PLC, DCS)"]
+    D1 --> D3["Bronze: Event Logs, Trip Logs"]
+    D1 --> D4["Silver: Time-Series Normalization"]
+    D1 --> D5["Gold: Risk Models and SIL(t) Curves"]
+    D1 --> D6["Event Streams"]
+    D1 --> D7["Anomaly Detection"]
+    D1 --> D8["Drift Monitoring"]
+    D1 --> D9["Metadata"]
+    D1 --> D10["Lineage"]
+    D1 --> D11["Quality Rules"]
 
-    "Time-Series Modeling"
-    "Failure Probability Curves"
-    "MTBF and MTTR Integration"
-    "Predictive Risk"
-    "Degradation Forecasting"
-    "Trip Correlation"
+    A --> E1[Analytics]
+    E1 --> E2["Time-Series Modeling"]
+    E1 --> E3["Failure Probability Curves"]
+    E1 --> E4["MTBF and MTTR Integration"]
+    E1 --> E5["Predictive Risk"]
+    E1 --> E6["Degradation Forecasting"]
+    E1 --> E7["Trip Correlation"]
 
-    "Correction to IEC 61508"
-    "Time-Dependent SIL Requirements"
-    "Continuous Validation"
-    "Operational Reality Integration"
-    "Digital Twin Alignment"
-    "Data-Driven Safety Proof"
+    A --> F1[Standards Annex]
+    F1 --> F2["Correction to IEC 61508"]
+    F1 --> F3["Time-Dependent SIL Requirements"]
+    F1 --> F4["Continuous Validation"]
+    F1 --> F5["Operational Reality Integration"]
+    F1 --> F6["Digital Twin Alignment"]
+    F1 --> F7["Data-Driven Safety Proof"]
 
-    "SIL(t) Dashboard"
-    "Risk Heatmaps"
-    "Degradation Timelines"
-    "Maintenance Prioritization"
-    "Compliance Evidence"
+    A --> G1[Outputs]
+    G1 --> G2["SIL(t) Dashboard"]
+    G1 --> G3["Risk Heatmaps"]
+    G1 --> G4["Degradation Timelines"]
+    G1 --> G5["Maintenance Prioritization"]
+    G1 --> G6["Compliance Evidence"]
 ```
