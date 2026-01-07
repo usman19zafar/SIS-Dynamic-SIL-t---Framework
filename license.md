@@ -1,5 +1,5 @@
 Copyright Statement — DAIS‑10 Implementation in SIS & SIF
-© 2024–2026 Usman Zafar. All rights reserved.
+© 2025 Usman Zafar. All rights reserved.
 
 The DAIS‑10 Framework, including its concepts, models, diagrams, time‑banded integrity methods, degradation logic, operational‑drift modeling, and all associated implementation guidance for Safety Instrumented Systems (SIS) and Safety Instrumented Functions (SIF), is the exclusive intellectual property of Usman Zafar.
 
