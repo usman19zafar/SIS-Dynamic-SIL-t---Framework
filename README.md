@@ -9,6 +9,14 @@ root((SIS_SILt_Framework))
       No_Time_Based_Degradation
       Event_Independent_Risk
 
+    Analytics
+      Time_Series_Modeling
+      Failure_Probability_Curves
+      MTBF_MTTR_Integration
+      Predictive_Risk
+      Degradation_Forecasting
+      Trip_Correlation
+
     Dynamic_Model
       SILt_Time_Banded_Integrity
       Operational_Drift
@@ -17,6 +25,13 @@ root((SIS_SILt_Framework))
       Maintenance_Gaps
       Sensor_Aging
       Real_Time_Risk_Evolution
+
+    Outputs
+      SILt_Dashboard
+      Risk_Heatmaps
+      Degradation_Timelines
+      Maintenance_Prioritization
+      Compliance_Evidence
 
     Data_Architecture
       Raw_Layer_Historian_PLC_DCS
@@ -30,14 +45,6 @@ root((SIS_SILt_Framework))
       Lineage
       Quality_Rules
 
-    Analytics
-      Time_Series_Modeling
-      Failure_Probability_Curves
-      MTBF_MTTR_Integration
-      Predictive_Risk
-      Degradation_Forecasting
-      Trip_Correlation
-
     Standards_Annex
       Correction_to_IEC61508
       Time_Dependent_SIL_Requirements
@@ -46,9 +53,3 @@ root((SIS_SILt_Framework))
       Digital_Twin_Alignment
       Data_Driven_Safety_Proof
 
-    Outputs
-      SILt_Dashboard
-      Risk_Heatmaps
-      Degradation_Timelines
-      Maintenance_Prioritization
-      Compliance_Evidence
