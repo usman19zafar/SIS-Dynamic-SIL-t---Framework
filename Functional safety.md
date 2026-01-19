@@ -209,8 +209,9 @@ flowchart TD
 /bridge
    FunctionalSafety_BridgeRules.md
 ```
-8. Next Steps (Optional Enhancements)
-If you choose, the next repo update can include:
+8. Next Steps (Optional Enhancements):
+
+    next repo update may include:
 
 A JSON schema for automated ingestion
 
